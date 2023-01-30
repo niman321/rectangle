@@ -5,7 +5,7 @@ public class ArraysDemo1 {
         String [] names={"slava","safi","jason","sason","nabi","anees","joseph"};
 
         System.out.println(names.length);
-        for (int i = 0; i <names.length ; i++) {
+        for (int i = 0; i < names.length; i++) {
             System.out.println(names[i]);
 
         }
