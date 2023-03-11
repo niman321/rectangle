@@ -1,0 +1,29 @@
+Collection framework:
+A collection of classes and interfaces which help us to store and manage objects in the form of collections.
+For example ArrayList Linked-list. these classes make it easier to manage data they have ready made methods.
+Wrapper classes:
+we can use primitive data types as objects with help of wrapper classes.we want to do it because primitive data types are not
+supported by the classes in collections frameWork like ArrayList.
+Boxing:
+Is the process of converting primitive data type to its corresponding wrapper type or object type.
+autoboxing:
+is the process by which a primitive data type is automatically converted into its corresponding wrapper class object,
+Unboxing:
+is the process of converting wrapper class object to its corresponding primitive data type.
+AutoUnboxing:
+is the process by which a wrapper class object is automatically converted to its corresponding primitive data type.
+
+ArrayList:
+Arraylist is a part of collection framework we can store single objects inside arraylist.
+it works very similar how array works but its dynamic in nature which means it can grow nad shrink its size automatically
+unlike array we don't need to provide the size upfront , we have built in methods that we can use to manipulate the objects that we store
+inside that arraylist.
+
+Diamond Operator:
+also called angle brackets <> they are used to specify the name of the class whose objects we will be storing inside the classes
+which belong to collections framework or any other class which uses java generics.
+ArrayList vs LinkedList:
+if in your code most of the time you use get methods and you don't add or remove elements from in between the you should always use Arraylist.
+if most of the time you add or remove elements from in between and don't use get method then use LinkedList.
+
+

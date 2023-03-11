@@ -1,5 +1,7 @@
 package Class7;
 
+import java.util.Scanner;
+
 public class morgage {
     public static void main(String[] args) {
 
@@ -16,6 +18,8 @@ public class morgage {
         }else {
             System.out.println("will pay cash");
         }
+        Scanner scanner=new Scanner(System.in);
+        scanner.nextInt();
 
 
 

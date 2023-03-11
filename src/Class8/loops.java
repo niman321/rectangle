@@ -2,27 +2,20 @@ package Class8;
 
 public class loops {
     public static void main(String[] args) {
+        for (int i = 1; i <=10 ; i++) {
+            if (i%3!=0){
+                System.out.print(i+" ");
+                continue;
+            }
+            System.out.println();
 
-          int number2=0;
-          while (number2<3){
-              System.out.println("hello");
-              number2++;
-
-
-              int number=1;
-              while (number<5){
-                  System.out.println(number);
-                  number++;
+        }
 
 
-                  int newNumber=1;
-                  while (newNumber>100){
-                      System.out.println(newNumber);
-                      newNumber++;
-                  }
-              }
 
 
-          }
+
+
+
     }
 }

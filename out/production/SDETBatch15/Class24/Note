@@ -1,0 +1,11 @@
+Polymorphism
+
+
+Abstraction:
+is the process of hiding the implementation details and showing only the functionality to the user.
+why we should use Abstraction:
+1) it reduces the code complexity
+2) it allows the end user to focus on using the features instead of worrying about the implementation.
+Syntax:
+we need to declare the methods as abstract if we are not planning to provide the implementation.
+we also need to write abstract keyword with the class as well.
