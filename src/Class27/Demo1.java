@@ -5,14 +5,22 @@ public class Demo1 {
         String name = "nima";
         String name2 = "zafar";
         String name3 = "walid";
-        getNames(name,name2,name3);
+        String[]names={"mima","zafar","walid"};
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);
+        }
+
+
+            for (String s:names){
+                System.out.println(s);
+            }
+
+
+
+
+
 
     }
-    public static void getNames(String name,String name2,String name3){
-        System.out.println(name);
-        System.out.println(name2);
-        System.out.println(name3);
 
-    }
 
 }

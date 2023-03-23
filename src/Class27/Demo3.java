@@ -11,7 +11,10 @@ public class Demo3 {
         names.add("java");
         names.add("mana");
         names.add("dana");
+        names.add("kaka");
+        names.removeIf(x->x.contains("m")||x.contains("I")||x.contains("j"));
         System.out.println(names);
+
 
     }
 }

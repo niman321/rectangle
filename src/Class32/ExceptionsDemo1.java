@@ -10,12 +10,19 @@ public class ExceptionsDemo1 {
         System.out.println("line6");
         try {
             System.out.println(10/0);
+            System.out.println("2");
+            System.out.println("3");
         }catch (Exception e){
             System.out.println(e);
+            System.out.println(10/0);
+            System.out.println("5");
+            System.out.println("30");
         }
-        System.out.println("line8");
-        System.out.println("line9");
-        System.out.println("line10");
+        finally {
+            System.out.println("nima");
+
+        }
+        System.out.println("line6");
 
 
 

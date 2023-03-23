@@ -11,21 +11,24 @@ public class Demo6 {
         booleans.add(false);
         booleans.add(true);
         booleans.add(false);
-        //System.out.println(booleans.get(3));
-        System.out.println(booleans.size());
-       // for (int i = 0; i < booleans.size(); i++) {
-           // System.out.println(booleans.get(i));
+        System.out.println(booleans.get(0));
+        for (int i = 0; i <booleans.size() ; i++) {
+            System.out.println(booleans.get(i));
+        }
 
-       // }
-        int i=0;
+        System.out.println("*************************************************");
+
+        for (var v:booleans){
+            System.out.println(v);
+        }
+        System.out.println("***************************************************");
+
+
+        int i = 0;
         while (i<booleans.size()){
             System.out.println(booleans.get(i));
             i++;
         }
-
-
-
-
 
 
     }
